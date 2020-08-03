@@ -1,0 +1,50 @@
+/*! CSS Used from: https://meduza.io/vendor.deb94da072900d91188c.css */
+.Meta-root{-webkit-transform:translateZ(0);transform:translateZ(0);font-family:Proxima Nova,Arial,Helvetica Neue,sans-serif;font-size:12px;line-height:14px;fill:inherit;}
+.MetaItem-root{display:inline;margin-right:15px;}
+.Timestamp-root{font-family:Proxima Nova,Arial,Helvetica Neue,sans-serif;font-weight:400;}
+/*! CSS Used from: https://meduza.io/styles.de9b8c75df9060536512.css */
+.ChronologyItem-root{position:relative;z-index:1;display:flex;align-items:stretch;flex-direction:column;color:#000;background-color:#fff;font-family:PF Regal,PF Regal Text Pro,Georgia,serif;-webkit-tap-highlight-color:transparent;}
+@media only screen and (min-width:32em){
+.ChronologyItem-root{flex-direction:row;}
+}
+@media only screen and (min-width:48em){
+.ChronologyItem-root:hover{z-index:10;opacity:.95;}
+}
+.ChronologyItem-link{display:block;}
+.ChronologyItem-body{z-index:10;flex-grow:1;width:100%;padding:12px;}
+@media only screen and (min-width:32em){
+.ChronologyItem-body{flex-basis:60%;padding:15px;}
+}
+.ChronologyItem-simple .ChronologyItem-body{font-family:PF Regal,PF Regal Text Pro,Georgia,serif;}
+@media only screen and (min-width:32em){
+.ChronologyItem-simple .ChronologyItem-body{padding:18px 20px;}
+}
+@media only screen and (min-width:32em){
+.ChronologyItem-simple .ChronologyItem-header h2{font-size:27px;line-height:33px;}
+}
+.ChronologyItem-header{margin-bottom:8px;}
+@media only screen and (min-width:32em){
+.ChronologyItem-header{margin-bottom:18px;}
+}
+.ChronologyItem-header h2{font-size:20px;line-height:23px;}
+@media only screen and (min-width:32em){
+.ChronologyItem-header h2{font-size:21px;line-height:27px;}
+}
+.ChronologyItem-header h2,.ChronologyItem-header strong{font-weight:400;}
+.ChronologyItem-footer{margin-top:auto;color:gray;font-size:12px;line-height:1;fill:#b88b58;}
+.ChronologyItem-root{border-radius:8px;box-shadow:inset 0 0 0 1px rgba(0,0,0,.1);}
+.ChronologyItem-root .ChronologyItem-body{display:flex;flex-flow:column nowrap;}
+.Chronology-item{margin:12px 0;}
+a{background-color:transparent;-webkit-text-decoration-skip:objects;}
+::-webkit-input-placeholder{color:inherit;opacity:.54;}
+h2{margin:0;padding:0;font-weight:400;}
+*{box-sizing:border-box;}
+a{text-decoration:none;color:#000;}
+/*! CSS Used fontfaces */
+@font-face{font-family:Proxima Nova;font-weight:400;font-style:normal;src:url(data:font/woff;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICJmb250cy9Qcm94aW1hTm92YS1SZWd1bGFyLTUyYWZhZC53b2ZmIjs=) format("woff");}
+@font-face{font-family:Proxima Nova;font-weight:600;font-style:normal;src:url(data:font/woff;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICJmb250cy9Qcm94aW1hTm92YS1TZW1pYm9sZC1mNjQ5M2Uud29mZiI7) format("woff");}
+@font-face{font-family:Proxima Nova;font-weight:700;font-style:normal;src:url(data:font/woff;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICJmb250cy9Qcm94aW1hTm92YS1Cb2xkLWY5MDExNi53b2ZmIjs=) format("woff");}
+@font-face{font-family:PF Regal;font-style:normal;src:url(data:font/woff;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICJmb250cy9QRlJlZ2FsVGV4dFByby1SZWd1bGFyQi1jZGE1NDcud29mZiI7) format("woff");}
+@font-face{font-family:PF Regal;font-style:italic;src:url(data:font/woff;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICJmb250cy9QRlJlZ2FsVGV4dFByby1SZWd1bGFyQkl0YWxpYy1hNTQ5NmIud29mZiI7) format("woff");}
+@font-face{font-family:PF Regal;font-weight:700;src:url(data:font/woff;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICJmb250cy9QRlJlZ2FsVGV4dFByby1Cb2xkLTFhNDZmYS53b2ZmIjs=) format("woff");}
+@font-face{font-family:PF Regal;font-weight:700;font-style:italic;src:url(data:font/woff;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICJmb250cy9QRlJlZ2FsVGV4dFByby1Cb2xkSXRhbGljLWQ5MDg3NC53b2ZmIjs=) format("woff");}
