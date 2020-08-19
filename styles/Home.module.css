@@ -1,14 +1,10 @@
-.header {
-  display: flex;
-  justify-content: center;
-  padding: 15px 0;
-}
-
-.logo {
-  width: 50px;
-}
-
-.content {
-  max-width: 1335px;
+.items {
+  max-width: 850px;
   margin: auto;
+}
+
+.infoPanel {
+  max-width: 850px;
+  margin: auto;
+  margin-top: 30px;
 }

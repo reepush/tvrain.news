@@ -6,7 +6,7 @@
 .Switcher-control:before{position:absolute;top:0;bottom:0;left:0;width:18px;content:"";background:rgba(19,191,17,0);}
 .Switcher-control:before,.Switcher-knob{transition:.25s ease-in-out;border-radius:15px;}
 .Switcher-knob{position:relative;z-index:200;top:2px;left:2px;display:block;width:17px;height:17px;background:#fff;}
-.Switcher-input:checked~.Switcher-control:before{width:100%;background-color:#b88b59;}
+.Switcher-input:checked~.Switcher-control:before{width:100%;background-color:#ea5d89;}
 .Switcher-input:checked~.Switcher-control:after{box-shadow:inset 0 0 0 1px transparent;}
 .Switcher-input:checked~.Switcher-control .Switcher-knob{left:18px;}
 .Switcher-children.Switcher-left{margin-right:6px;}

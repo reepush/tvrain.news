@@ -34,7 +34,7 @@
 .ChronologyItem-footer{margin-top:auto;color:gray;font-size:12px;line-height:1;fill:#b88b58;}
 .ChronologyItem-root{border-radius:8px;box-shadow:inset 0 0 0 1px rgba(0,0,0,.1);}
 .ChronologyItem-root .ChronologyItem-body{display:flex;flex-flow:column nowrap;}
-.Chronology-item{margin:12px 0;}
+.Chronology-item{margin:16px 0;}
 a{background-color:transparent;-webkit-text-decoration-skip:objects;}
 ::-webkit-input-placeholder{color:inherit;opacity:.54;}
 h2{margin:0;padding:0;font-weight:400;}

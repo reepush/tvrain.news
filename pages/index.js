@@ -1,10 +1,22 @@
+import { useState, useEffect } from 'react'
 import Head from 'next/head'
+import axios from 'axios'
 import styles from '../styles/Home.module.css'
 import InfoPanel from '../components/InfoPanel'
 import Item from '../components/Item'
-import items from '../items.json'
 
 export default function Home() {
+  let news = {}
+  const [items, setItems] = useState([])
+  
+  useEffect(() => {
+    axios('/api/news').then(response => {
+      news = response.data
+      console.log(response.data)
+      setItems(news.popular)
+    })
+  }, [])
+  
   return (
     <div className={styles.container}>
       <Head>
@@ -12,11 +24,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <header className={styles.header}>
-        <img src="/logo.svg" className={styles.logo} />
-      </header>
-      
-      <main className={styles.content}>
+      <main>
         <div className={styles.infoPanel}>
           <InfoPanel />
         </div>
